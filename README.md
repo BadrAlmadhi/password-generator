@@ -1,9 +1,17 @@
 # Generate a Password
 
 ```
-In this project, this assignment was aksing me to make a password generator. This project is my first JavaScript project with the Georgia Tech Coding BootCamp. It was one of the most challenging tasks that gave me the opportunity to know about new methods such as .math, .random, prompt, parseInt, and alert.
+In this project, this assignment was aksing me to make a
+ password generator. This project is my first JavaScript
+ project with the Georgia Tech Coding BootCamp. It was one
+ of the most challenging tasks that gave me the opportunity
+ to know about new methods such as .math, .random, prompt,
+ parseInt, and alert.
 
-This project helped me to understand those methods and helped me gain all the knowledge about them. Also, I understand more about the if statemnt, functions, and for loop. I am so glad I have done this project to help me understand JavaScript.
+This project helped me to understand those methods and helped
+me gain all the knowledge about them. Also, I understand more
+about the if statemnt, functions, and for loop. I am so glad
+I have done this project to help me understand JavaScript.
 
 ```
 
