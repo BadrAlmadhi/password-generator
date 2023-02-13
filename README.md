@@ -17,9 +17,8 @@ I have done this project to help me understand JavaScript.
 
 ## Project Image
 
-```
 <img src="./Screenshot (7).png"/>
-
+```
 This an example of the main page with the prompt asking questions
 to generate password.
 ```
