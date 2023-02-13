@@ -27,6 +27,7 @@ function generatePassword() {
   var wantsLowercase = confirm(
     "Do you want your password to contain lowercase characters?"
   );
+
   var wantsUppercase = confirm(
     "Do you want your password to contain uppercase characters?"
   );
@@ -59,11 +60,20 @@ function generatePassword() {
   if (wantsSymbols) {
     finalCharactersArray.push(...symbols);
   }
+  console.log(finalCharactersArray);
   // iterate through the final characters array and choose random character for as manytimes as the password length
+  var PasswordCharacters = [];
+
   for (var i = 0; i < passwordLength; i++) {
-    var password = password[Math.floor(Math.random() * password)];
+    var password =
+      finalCharactersArray[
+        Math.floor(Math.random() * finalCharactersArray.length)
+      ];
+    PasswordCharacters.push(password);
+    //console.log(PasswordCharacters);
   }
-  return password;
+
+  return PasswordCharacters.join("");
 }
 
 // Write password to the #password input
