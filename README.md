@@ -60,3 +60,7 @@ index.html
 styles.css
 JavaScript
 ```
+
+### Live link
+
+https://badralmadhi.github.io/password-generator/
